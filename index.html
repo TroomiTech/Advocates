@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troomi Advocate Programs Infographic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F0F9FF;
+        }
+        .chart-container {
+            position: relative;
+            margin: auto;
+            height: 300px;
+            max-height: 400px;
+            width: 100%;
+            max-width: 500px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #0079FF, #00C2FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8">
+        
+        <header class="text-center mb-12 md:mb-20">
+            <h1 class="text-4xl md:text-6xl font-black text-[#004AAD] mb-2">The Troomi Advocate Ecosystem</h1>
+            <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">A visual guide to the diverse partnership programs driving Troomi's mission of safe tech for kids. Four distinct paths, one shared goal.</p>
+        </header>
+
+        <section id="pillars" class="mb-12 md:mb-20">
+             <h2 class="text-3xl font-bold text-center mb-10 text-[#004AAD]">The Four Pillars of Advocacy</h2>
+             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                 
+                 <div class="bg-white p-6 rounded-2xl shadow-lg border-t-4 border-[#0079FF] transition-transform transform hover:scale-105">
+                     <h3 class="text-2xl font-bold text-[#004AAD] mb-3">Parents</h3>
+                     <p class="text-gray-600">Existing Troomi customers who share their positive experiences directly with friends and family.</p>
+                 </div>
+                 
+                 <div class="bg-white p-6 rounded-2xl shadow-lg border-t-4 border-[#00C2FF] transition-transform transform hover:scale-105">
+                     <h3 class="text-2xl font-bold text-[#004AAD] mb-3">Affiliates</h3>
+                     <p class="text-gray-600">Online publishers and marketers who drive traffic through performance-based advertising.</p>
+                 </div>
+
+                 <div class="bg-white p-6 rounded-2xl shadow-lg border-t-4 border-[#0079FF] transition-transform transform hover:scale-105">
+                     <h3 class="text-2xl font-bold text-[#004AAD] mb-3">Influencers</h3>
+                     <p class="text-gray-600">Social media creators who produce authentic content and act as brand ambassadors.</p>
+                 </div>
+
+                 <div class="bg-white p-6 rounded-2xl shadow-lg border-t-4 border-[#00C2FF] transition-transform transform hover:scale-105">
+                     <h3 class="text-2xl font-bold text-[#004AAD] mb-3">Partners</h3>
+                     <p class="text-gray-600">Professionals and organizations who recommend Troomi to their established audiences.</p>
+                 </div>
+             </div>
+        </section>
+
+
+        <section id="deep-dive" class="space-y-16">
+            
+            <div class="bg-white p-6 md:p-8 rounded-2xl shadow-xl">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <h2 class="text-3xl font-bold text-[#004AAD] mb-4">Parents: The Foundation</h2>
+                        <p class="text-gray-600 mb-6">The most personal form of advocacy comes from parents. The Parent Referral Program empowers existing customers to become Troomi's most trusted voices. It's a simple, direct way to share the love and get rewarded.</p>
+                        <div class="bg-[#F0F9FF] p-6 rounded-lg text-center">
+                             <p class="text-lg text-[#004AAD] mb-2">Reward for Each Successful Referral</p>
+                             <p class="text-6xl font-black gradient-text">2</p>
+                             <p class="text-2xl font-bold text-[#004AAD]">Months Free Service</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-center mb-4 text-[#004AAD]">How It Works</h3>
+                        <div class="flex flex-col items-center space-y-4">
+                            <div class="w-full max-w-sm text-center bg-gray-50 p-4 rounded-lg shadow-inner">
+                                <span class="text-4xl">1️⃣</span>
+                                <p class="font-semibold text-gray-700 mt-2">Get Code</p>
+                                <p class="text-sm text-gray-500">A unique code is generated in the Parent Portal.</p>
+                            </div>
+                             <div class="text-3xl font-bold text-[#00C2FF]">⬇️</div>
+                             <div class="w-full max-w-sm text-center bg-gray-50 p-4 rounded-lg shadow-inner">
+                                <span class="text-4xl">2️⃣</span>
+                                <p class="font-semibold text-gray-700 mt-2">Share Code</p>
+                                <p class="text-sm text-gray-500">Share with anyone via text, email, or social media.</p>
+                            </div>
+                            <div class="text-3xl font-bold text-[#00C2FF]">⬇️</div>
+                             <div class="w-full max-w-sm text-center bg-gray-50 p-4 rounded-lg shadow-inner">
+                                <span class="text-4xl">3️⃣</span>
+                                <p class="font-semibold text-gray-700 mt-2">Earn Reward</p>
+                                <p class="text-sm text-gray-500">Receive free service when a friend makes a purchase.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 md:p-8 rounded-2xl shadow-xl">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                     <div>
+                        <h2 class="text-3xl font-bold text-[#004AAD] mb-4">Affiliates: The Broad Reach</h2>
+                        <p class="text-gray-600 mb-6">The Affiliate Program leverages established marketing platforms to extend Troomi's reach across the web. It's a performance-driven model managed by industry experts for maximum impact and efficiency.</p>
+                         <div class="text-gray-600 space-y-4">
+                             <p><strong class="text-[#004AAD]">Model:</strong> Pay-Per-Action (PPA). Compensation is based on a successful purchase made through an affiliate link.</p>
+                             <p><strong class="text-[#004AAD]">Management:</strong> This program is professionally managed by <span class="font-bold">Advertise Purple</span>, a top-tier affiliate marketing agency.</p>
+                             <p><strong class="text-[#004AAD]">Platform:</strong> Operations are run through <span class="font-bold">ShareASale</span> (integrating with Awin), a vast and reputable affiliate network.</p>
+                         </div>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="affiliateChart"></canvas>
+                        <p class="text-center text-sm text-gray-500 mt-2">A partnership between Troomi, management agency, and affiliate network.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 md:p-8 rounded-2xl shadow-xl">
+                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div class="chart-container">
+                        <canvas id="influencerChart"></canvas>
+                        <p class="text-center text-sm text-gray-500 mt-2">Commission per sale varies by influencer tier.</p>
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-bold text-[#004AAD] mb-4">Influencers: The Content Creators</h2>
+                        <p class="text-gray-600 mb-6">Influencers are Troomi's brand ambassadors, creating authentic social media content. The program is structured in tiers to reward performance and offers unique incentives to foster a strong community.</p>
+                        <ul class="space-y-3 text-gray-600 list-inside">
+                           <li><span class="font-bold text-[#0079FF]">VIP Tier:</span> Highest commission at <span class="font-bold">$50 + 10%</span> of the sale.</li>
+                           <li><span class="font-bold text-[#0079FF]">Tier 1:</span> Earns a <span class="font-bold">$30 + 10%</span> commission per sale.</li>
+                           <li><span class="font-bold text-[#0079FF]">Tier 2:</span> Earns a <span class="font-bold">$25 + 10%</span> commission per sale.</li>
+                           <li><span class="font-bold text-[#00C2FF]">Monthly Service Waived:</span> A key perk for influencers who have a kid's phone and post at least once per month.</li>
+                            <li><span class="font-bold text-[#00C2FF]">Special Campaigns:</span> Opportunities to earn extra cash by participating in targeted promotions.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white p-6 md:p-8 rounded-2xl shadow-xl">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <h2 class="text-3xl font-bold text-[#004AAD] mb-4">Partners: The Trusted Advisors</h2>
+                        <p class="text-gray-600 mb-6">The Partner Program collaborates with businesses and professionals who share Troomi's values. These partners, like therapists or coaches, recommend Troomi to their own established audiences, leveraging trust and shared interests.</p>
+                        <div class="text-gray-600 space-y-4">
+                             <p><strong class="text-[#004AAD]">Audience:</strong> Partners have a direct line to audiences that are naturally interested in Troomi's mission.</p>
+                             <p><strong class="text-[#004AAD]">Promotion:</strong> Promotion is done via a unique code shared with their customers or clients, not through public social media posts.</p>
+                             <p><strong class="text-[#004AAD]">Compensation:</strong> Partners earn a commission on sales. The specific commission rate varies per partner.</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center p-4">
+                        <div class="relative w-64 h-56">
+                            <div class="absolute top-0 left-0 w-40 h-40 bg-[#0079FF] rounded-full flex items-start justify-center text-white font-bold text-center p-2 pt-6 opacity-80">Partner's Audience</div>
+                            <div class="absolute bottom-0 right-0 w-40 h-40 bg-[#00C2FF] rounded-full flex items-end justify-center text-white font-bold text-center p-2 pb-6 opacity-80">Troomi's Audience</div>
+                            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-xl font-bold text-white bg-black bg-opacity-50 px-2 py-1 rounded">Shared Interest</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 md:p-8 rounded-2xl shadow-xl">
+                <h2 class="text-3xl font-bold text-center mb-6 text-[#004AAD]">Tools of the Trade</h2>
+                <p class="text-center text-gray-600 max-w-2xl mx-auto mb-8">Each program is supported by specific platforms designed for its unique needs, ranging from simple self-service portals to sophisticated, full-service partnership management systems.</p>
+                <div class="chart-container">
+                    <canvas id="toolsChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            
+            function wrapText(label, maxWidth = 16) {
+                if (typeof label !== 'string' || label.length <= maxWidth) {
+                    return label;
+                }
+                const words = label.split(' ');
+                const lines = [];
+                let currentLine = '';
+                for (const word of words) {
+                    if ((currentLine + ' ' + word).trim().length > maxWidth && currentLine.length > 0) {
+                        lines.push(currentLine);
+                        currentLine = word;
+                    } else {
+                        currentLine = (currentLine + ' ' + word).trim();
+                    }
+                }
+                if (currentLine.length > 0) {
+                    lines.push(currentLine);
+                }
+                return lines;
+            }
+
+            const tooltipTitleCallback = {
+                tooltip: {
+                    callbacks: {
+                        title: function(tooltipItems) {
+                            const item = tooltipItems[0];
+                            let label = item.chart.data.labels[item.dataIndex];
+                            if (Array.isArray(label)) {
+                              return label.join(' ');
+                            }
+                            return label;
+                        }
+                    }
+                }
+            };
+            
+            const brilliantBlues = ['#004AAD', '#0079FF', '#00C2FF'];
+            const brilliantBluesBg = ['rgba(0, 74, 173, 0.8)', 'rgba(0, 121, 255, 0.8)', 'rgba(0, 194, 255, 0.8)'];
+
+            const affiliateCtx = document.getElementById('affiliateChart');
+            if (affiliateCtx) {
+                new Chart(affiliateCtx, {
+                    type: 'doughnut',
+                    data: {
+                        labels: ['Troomi', 'Advertise Purple (Agency)', 'ShareASale (Network)'],
+                        datasets: [{
+                            label: 'Program Components',
+                            data: [1, 1, 1],
+                            backgroundColor: brilliantBluesBg,
+                            borderColor: ['#FFFFFF', '#FFFFFF', '#FFFFFF'],
+                            borderWidth: 2
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                position: 'top',
+                            },
+                            ...tooltipTitleCallback
+                        }
+                    }
+                });
+            }
+
+            const influencerCtx = document.getElementById('influencerChart');
+            if (influencerCtx) {
+                new Chart(influencerCtx, {
+                    type: 'bar',
+                    data: {
+                        labels: ['VIP Tier', 'Tier 1', 'Tier 2'],
+                        datasets: [{
+                            label: 'Base Commission per Sale ($)',
+                            data: [50, 30, 25],
+                            backgroundColor: brilliantBluesBg,
+                            borderColor: brilliantBlues,
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                title: {
+                                    display: true,
+                                    text: 'Commission in USD ($)'
+                                }
+                            }
+                        },
+                        plugins: {
+                            legend: {
+                                display: false
+                            },
+                             ...tooltipTitleCallback
+                        }
+                    }
+                });
+            }
+
+            const toolsCtx = document.getElementById('toolsChart');
+            if (toolsCtx) {
+                 new Chart(toolsCtx, {
+                    type: 'bar',
+                    data: {
+                        labels: ['Parent Portal', 'ShareASale', wrapText('Current / Impact Platform')],
+                        datasets: [{
+                            label: 'Management Level & Complexity',
+                            data: [1, 2, 3],
+                            backgroundColor: brilliantBluesBg,
+                            borderColor: brilliantBlues,
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'y',
+                        responsive: true,
+                        maintainAspectRatio: false,
+                         scales: {
+                            x: {
+                                ticks: {
+                                    callback: function(value, index, values) {
+                                        const labels = ['Low (Self-Serve)', 'Medium (Managed)', 'High (Partnership)'];
+                                        return labels[value-1] || '';
+                                    }
+                                },
+                                min: 0,
+                                max: 3
+                            }
+                        },
+                        plugins: {
+                            legend: {
+                                display: false
+                            },
+                            ...tooltipTitleCallback
+                        }
+                    }
+                });
+            }
+
+        });
+    </script>
+</body>
+</html>
